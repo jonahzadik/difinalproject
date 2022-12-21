@@ -1,0 +1,16 @@
+html {
+  overflow-x: hidden;
+  background-image: url("./Screen\ Shot\ 2022-12-10\ at\ 6.53.03\ PM.png");
+  background-size: cover;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}

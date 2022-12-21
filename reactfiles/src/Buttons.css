@@ -1,0 +1,61 @@
+#buttondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+#firstbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: #00aeef;
+  border: none;
+  border-radius: 20px;
+  padding: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 240px;
+  font-size: 23px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.57) 9px 10px 25px -12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+#firstbutton:hover {
+  background-color: #0087b9;
+  color: #ffffff;
+}
+
+#secondbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: #fbb040;
+  border: none;
+  border-radius: 20px;
+  padding: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 23px;
+  font-family: "Baloo Thambi 2", cursive;
+  width: 240px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 120px;
+  box-shadow: rgba(0, 0, 0, 0.57) 9px 10px 25px -12px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+#secondbutton:hover {
+  background-color: #c78a2f;
+  color: #ffffff;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap");
+
+#ourflavours {
+  font-size: 55px;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 800;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.14);
+}
+
+#textdiv {
+  margin-top: -125px;
+  margin-left: 175px;
+  margin-right: 175px;
+}
+
+#flavours {
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 45px;
+  justify-content: space-between;
+}

@@ -1,0 +1,192 @@
+#flavourcomponent {
+  width: 252px;
+  height: 272px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 9px 10px 25px -12px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 9px 10px 25px -12px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 9px 10px 25px -12px rgba(0, 0, 0, 0.57);
+}
+
+#image {
+  display: flex;
+  width: 108px;
+  height: 108px;
+  margin: 0 auto;
+  margin-top: -35px;
+  margin-bottom: 6px;
+}
+
+#flavourname {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#flavournametext {
+  font-size: 20px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 600;
+  color: #505050;
+  margin-top: -5px;
+}
+
+#flavourtypediv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+.Traditional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 600;
+  color: #c08f43;
+  margin-top: 10px;
+  background-color: #f1e9cc;
+  width: 80px;
+  height: 22px;
+  border-radius: 8px;
+}
+
+.Exotic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 600;
+  color: #7a43c0;
+  margin-top: 10px;
+  background-color: #d8ccf1;
+  width: 60px;
+  height: 22px;
+  border-radius: 8px;
+}
+
+#descriptiondiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+#descriptiontext {
+  font-size: 15px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 500;
+  color: #b1b1b1;
+  margin-left: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#bottomgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 10px;
+}
+
+#pricetext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 800;
+  color: #505050;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+#addtocart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  background-color: #00aeef;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: 0.25s;
+}
+
+#addtocart:hover {
+  background-color: #0087b9;
+}
+
+#carticon {
+  width: 23px;
+  height: 23px;
+  margin-left: 3px;
+}
+
+#count {
+  background-color: #e6e5e5;
+  width: 65px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 18px;
+}
+
+#counttext {
+  font-size: 20px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 600;
+  color: #505050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  margin-left: 2px;
+  margin-bottom: 0px;
+}
+
+#minus {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 500;
+  padding-right: 10px;
+  font-size: 20px;
+  color: #505050;
+}
+
+#minus:hover {
+  color: #00aeef;
+}
+
+#plus {
+  color: #505050;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: "Baloo Thambi 2", cursive;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+#plus:hover {
+  color: #00aeef;
+}

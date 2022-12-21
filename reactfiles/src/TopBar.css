@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap");
+#basket {
+  width: 47px;
+  height: 47px;
+  cursor: pointer;
+  background-color: #ffa216;
+  border: none;
+  border-radius: 16px;
+}
+
+#basketicon {
+  margin-top: 11px;
+  width: 23px;
+  height: 23px;
+  margin-left: 12.5px;
+}
+
+.locationdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #00aeef;
+  width: 146px;
+  height: 47px;
+  border-radius: 16px;
+}
+
+#locationpeg {
+  width: 28px;
+  height: 28px;
+
+  margin-left: 10px;
+}
+
+.App-logo {
+  width: 111px;
+  height: 94px;
+}
+
+#locationtext {
+  font-size: 16px;
+  margin-left: 6px;
+  font-weight: bold;
+  font-family: "Baloo Thambi 2", cursive;
+  color: black;
+}
+
+#topbardiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: 20px;
+}
+
+#rightside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  column-gap: 10px;
+}
