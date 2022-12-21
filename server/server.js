@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-app.listen(5001, () => {
-  console.log("listening on server 5001");
+app.listen(5002, () => {
+  console.log("listening on server 5002");
 });
 
 app.use("/", express.static(__dirname + "/public"));
